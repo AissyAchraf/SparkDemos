@@ -14,3 +14,4 @@ libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-mllib" % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-hive" % sparkVersion
+libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.18"
