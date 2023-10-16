@@ -34,5 +34,6 @@ object create_dataframe_from_csv_file {
     users_df.printSchema()
 
     spark.stop()
+    println("Apache Spark Application finished ...")
   }
 }
